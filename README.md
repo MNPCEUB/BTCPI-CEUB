@@ -1,2 +1,2 @@
-# BTCPI-CEUB
-Repositório usado para consolidar projetos e atividades feitas em ambiente acadêmico a fim de servir como critério avaliativo do curso de Bootcamp I no curso de Ciência da Computação do CEUB.
+# Projetos de Lógica de Programação
+Repositório usado para consolidar projetos e atividades feitas em ambiente acadêmico na matéria de Lógica de Programação I, primeiro semestre, no curso de Ciência da Computação do CEUB.

@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="30DD456D-FE48-EE18-60F7-30FB1014565D" name="pedidos">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:07:22 UTC</createdTime>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="156EB218-4D85-77D4-5A89-63DCD200F9B1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idPedido" id="114F5C98-F0CD-5A54-DAB8-0A2C7E2C6275">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:08:45 UTC</createdTime>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="156EB218-4D85-77D4-5A89-63DCD200F9B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataHora" id="5DF02532-6C14-3BC6-B442-44FF9BA1CBEB">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:10:30 UTC</createdTime>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="156EB218-4D85-77D4-5A89-63DCD200F9B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="statusPedido" id="A123F931-7F9B-E0DF-E1FB-F9C64121B7EB">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:25:20 UTC</createdTime>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="156EB218-4D85-77D4-5A89-63DCD200F9B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valorTotal" id="CE6F1B1D-0976-62AE-DD7B-F939671CAB8D">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:28:09 UTC</createdTime>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="156EB218-4D85-77D4-5A89-63DCD200F9B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="8E717FBD-8D28-07A0-A8CC-5BB1B0977097">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:39:14 UTC</createdTime>
+<generatorID>2BB49401-FCD2-8A95-B109-7FEAB1A2E43C</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="156EB218-4D85-77D4-5A89-63DCD200F9B1" value="true"/>
+</engineerTo>
+<referedAttribute>079436E8-5C2E-7BB3-9FF7-BC717F67C4A9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="9DBD9B18-6A2A-10EA-6A50-2C05803378FC">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:43:11 UTC</createdTime>
+<generatorID>1C36F9E5-B436-3867-0864-C2D6F266C618</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="156EB218-4D85-77D4-5A89-63DCD200F9B1" value="true"/>
+</engineerTo>
+<referedAttribute>8A2BFD41-1F42-6D3D-37A0-10D64ACDF7C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA8AC4FD-601E-14FF-9C8F-73D5F95A12DB" name="pedidos PK">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:09:35 UTC</createdTime>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="156EB218-4D85-77D4-5A89-63DCD200F9B1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>114F5C98-F0CD-5A54-DAB8-0A2C7E2C6275</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

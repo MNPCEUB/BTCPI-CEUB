@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20F0A15C-4D2E-F630-3F2D-F723FE4E649C" name="itens">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>E65D0F17-4DEE-960D-3620-CC02B5CFCC2C</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idProduto" id="6FC085F7-6397-76D8-1231-3369F962D9CC">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>29507500-BBFF-D404-E7EC-51CC12BBA363</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="8C513A4E-C282-18FE-9CC7-0FB9B5AE8A71">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>2845E9A9-7AFB-31B5-43B2-50F19BC98D0D</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qntItens" id="5B01D9BC-4975-EE3F-277D-CE0AB36F7399">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>4DCF7450-F34E-62BB-614A-9BC804EAC44C</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preçoProduto" id="BBB82357-E90A-A7C9-7487-C8E5B26B04A9">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>6E260AC4-CFF9-EA0C-7B45-DCCEC2B90764</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D177390B-372E-B650-CBAE-25B7DD7A87D9" name="itens_PK">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>4F804123-8791-2E7D-FF0E-A5BF009F08AA</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FC085F7-6397-76D8-1231-3369F962D9CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

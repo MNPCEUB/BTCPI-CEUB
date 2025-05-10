@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="11D4EAB7-0549-CF9F-509E-22E03A88D269" name="cliente">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:13:16 UTC</createdTime>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="156EB218-4D85-77D4-5A89-63DCD200F9B1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="079436E8-5C2E-7BB3-9FF7-BC717F67C4A9">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:13:24 UTC</createdTime>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="156EB218-4D85-77D4-5A89-63DCD200F9B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rua" id="429944FD-AB3B-0254-FC90-1A73E52400D8">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:13:37 UTC</createdTime>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="156EB218-4D85-77D4-5A89-63DCD200F9B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complemento" id="1C47ED5F-1A93-5D25-90C0-EF2E88C3973E">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:14:37 UTC</createdTime>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="156EB218-4D85-77D4-5A89-63DCD200F9B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lote" id="969F46FD-30AF-7624-9E61-4F67C9878B3E">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:14:56 UTC</createdTime>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="156EB218-4D85-77D4-5A89-63DCD200F9B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairro" id="42AA3AA7-E492-5D87-8080-5D4210CF45AB">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:15:20 UTC</createdTime>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="156EB218-4D85-77D4-5A89-63DCD200F9B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="FBC0D5EA-308C-CEA4-113F-E226D2AD8D86">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:15:44 UTC</createdTime>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="156EB218-4D85-77D4-5A89-63DCD200F9B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CEP" id="EE6BED32-3D8A-9FAD-3671-9D99625F0236">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:48:45 UTC</createdTime>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="156EB218-4D85-77D4-5A89-63DCD200F9B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FCB8809B-9ADA-5D23-2ECC-A0C15F355568" name="cliente PK">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:13:35 UTC</createdTime>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="156EB218-4D85-77D4-5A89-63DCD200F9B1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>079436E8-5C2E-7BB3-9FF7-BC717F67C4A9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6349E7D9-66E8-6AE6-5B0C-946E7D443CE0" name="cliente">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>11D4EAB7-0549-CF9F-509E-22E03A88D269</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf" id="1625FE54-03A2-DB4B-4CC1-B8526702DDD6">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>079436E8-5C2E-7BB3-9FF7-BC717F67C4A9</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rua" id="1EB427C5-9375-46F6-ECB0-E4B4CF7CC30A">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>429944FD-AB3B-0254-FC90-1A73E52400D8</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complemento" id="ECCD9A0D-218F-6B3C-916E-5F88ABACF909">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>1C47ED5F-1A93-5D25-90C0-EF2E88C3973E</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lote" id="A0CF3040-9A39-115B-B326-4348E0FA3D87">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>969F46FD-30AF-7624-9E61-4F67C9878B3E</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bairro" id="B2D3CC98-217F-79D6-1B3C-149A88AAA85F">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>42AA3AA7-E492-5D87-8080-5D4210CF45AB</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone1" id="A73523EA-ED5A-028F-E1E6-265E365B336B">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>FBC0D5EA-308C-CEA4-113F-E226D2AD8D86</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8DB509BB-8CFF-7279-0165-8FA80F542A6A" name="cliente_PK">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>FCB8809B-9ADA-5D23-2ECC-A0C15F355568</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1625FE54-03A2-DB4B-4CC1-B8526702DDD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

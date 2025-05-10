@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6EAC6965-1FD5-610F-B294-90F6EDA30276" name="vendedor">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>EBEB6290-CFAD-6102-4B39-AA4668105554</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nome" id="7A812790-524F-5FD2-FFEE-7A1CAB8B26EC">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>C9582959-A31B-EACE-E4CC-5B955E229CE4</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula" id="C8EEB284-FDB3-5E7D-8491-57492F11DFBE">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>8A2BFD41-1F42-6D3D-37A0-10D64ACDF7C2</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23DB7F22-2052-9368-D316-64FC1464CAB2" name="vendedor_PK">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>FAAC3D84-129C-1011-781E-41C0765E996A</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8EEB284-FDB3-5E7D-8491-57492F11DFBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

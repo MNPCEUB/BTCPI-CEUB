@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pedidoItens" directorySegmentName="seg_0" id="4391DA6C-B624-036C-49FB-CCACFD4AD081">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:42:01 UTC</createdTime>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="156EB218-4D85-77D4-5A89-63DCD200F9B1" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>30DD456D-FE48-EE18-60F7-30FB1014565D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E65D0F17-4DEE-960D-3620-CC02B5CFCC2C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6DB5B242-4052-900A-FACC-CC49F3B8C594" name="pedidos">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>30DD456D-FE48-EE18-60F7-30FB1014565D</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPedido" id="85577298-1572-5E32-E1D5-01B2FE98B6A7">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>114F5C98-F0CD-5A54-DAB8-0A2C7E2C6275</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataHora" id="65F5F6F4-902E-9352-14A3-A28281E26DEC">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>5DF02532-6C14-3BC6-B442-44FF9BA1CBEB</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="statusPedido" id="4A08DD19-551A-980E-A247-64A64A3FA3AA">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>A123F931-7F9B-E0DF-E1FB-F9C64121B7EB</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valorTotal" id="CDD791E4-FDB8-B30E-36C4-7D9B5CB33825">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>CE6F1B1D-0976-62AE-DD7B-F939671CAB8D</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cliente_cpf" id="320713B2-591E-F46A-4CC6-7B8501A70F64">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>8E717FBD-8D28-07A0-A8CC-5BB1B0977097</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="672F44B5-3C60-5586-BE83-530722610487" referredColumn="1625FE54-03A2-DB4B-4CC1-B8526702DDD6"/>
+</associations>
+</Column>
+<Column name="vendedor_matricula" id="F6FE7E57-50F0-4231-B9CE-1912E49CBE2A">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>9DBD9B18-6A2A-10EA-6A50-2C05803378FC</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B481AA4-E354-CE5A-D878-467EEC930D1A" referredColumn="C8EEB284-FDB3-5E7D-8491-57492F11DFBE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9590F0E5-9C13-19B9-6EF6-C6D83A7D2E2B" name="pedidos_PK">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>DA8AC4FD-601E-14FF-9C8F-73D5F95A12DB</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85577298-1572-5E32-E1D5-01B2FE98B6A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40C4F2A9-2890-24D6-16F4-3F17B375EAB2" name="pedidos_cliente_FK">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>2BB49401-FCD2-8A95-B109-7FEAB1A2E43C</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="320713B2-591E-F46A-4CC6-7B8501A70F64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA15D5DD-64D4-DA82-510E-565851BC2EE0" name="pedidos_vendedor_FK">
+<createdBy>matheuswark</createdBy>
+<createdTime>2025-05-05 23:46:18 UTC</createdTime>
+<generatorID>1C36F9E5-B436-3867-0864-C2D6F266C618</generatorID>
+<ownerDesignName>AVA2 PEDIDOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6FE7E57-50F0-4231-B9CE-1912E49CBE2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
